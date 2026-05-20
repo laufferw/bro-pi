@@ -1,7 +1,13 @@
 {
-	"name": "pi-monorepo",
+	"name": "bro-pi-monorepo",
 	"private": true,
 	"type": "module",
+	"description": "Bro-Pi - Your fitness & strength expert. Fork of pi-mono.",
+	"homepage": "https://github.com/laufferw/bro-pi#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/laufferw/bro-pi.git"
+	},
 	"workspaces": [
 		"packages/*",
 		"packages/coding-agent/examples/extensions/with-deps",
@@ -49,7 +55,7 @@
 	"engines": {
 		"node": ">=22.19.0"
 	},
-	"version": "0.0.3",
+	"version": "0.75.3",
 	"overrides": {
 		"rimraf": "6.1.2",
 		"gaxios": {
