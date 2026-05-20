@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.75.4] - 2026-05-20
+
 ### New Features
 
 - **Hardened npm install and release path** - Pi now ships the CLI with a generated shrinkwrap for transitive dependencies, blocks accidental lockfile changes, verifies dependency pinning and lifecycle-script allowlists in checks, disables lifecycle scripts for self-update and local release installs where supported, and smoke-tests isolated npm and Bun installs before release. See [Supply-chain hardening](../../README.md#supply-chain-hardening).

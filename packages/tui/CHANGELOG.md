@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.75.4] - 2026-05-20
+
 ### Changed
 
 - Removed the package-level development watch script now that the root TypeScript check validates strip-only-compatible sources.
